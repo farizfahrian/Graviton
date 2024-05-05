@@ -1,0 +1,249 @@
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-text {
+  font-size: 0.8rem;
+  text-align: left;
+  color: var(--gray-color);
+  line-height: 1.5;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
+  }
+}
+
+.bold-text {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--black-color);
+  text-align: left;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 0.9rem;
+  }
+}
+
+.studi-kasus {
+  font-weight: 700;
+}
+
+.head-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.head-text span {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+.deco-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70px;
+  height: 5px;
+  background-color: #2b4296;
+  margin-bottom: 1rem;
+}
+
+.app__casestudiess {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__casestudies-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin: 0 0 2rem;
+}
+
+.app__casestudies-filter-item {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: #000;
+  font-weight: 800;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0.5rem;
+}
+
+.app__casestudies-filter-item:hover {
+  background-color: #2b4296;
+  color: #fff;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__casestudies-filter-item {
+    padding: 1rem 2rem;
+    border-radius: 0.85rem;
+  }
+}
+
+.item-active {
+  background-color: #2b4296;
+  color: #fff;
+}
+
+.app__casestudies-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__casestudies-item {
+  width: 270px;
+  flex-direction: column;
+
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: #000;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.app__casestudies-item:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 2000px) {
+  .app__casestudies-item {
+    width: 470px;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .app__casestudies-item {
+    width: 100%;
+    margin: 1rem;
+  }
+}
+
+.app__casestudies-img {
+  width: 100%;
+  height: 230px;
+  position: relative;
+}
+
+.app__casestudies-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__casestudies-img {
+    height: 350px;
+  }
+}
+
+.app__casestudies-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.app__casestudies-hover div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+
+  margin: 1rem;
+  font-family: var(--font-base);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.app__casestudies-hover div svg {
+  width: 50%;
+  height: 50%;
+  color: #fff;
+}
+
+.app__casestudies-content {
+  padding: 0.5rem;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+}
+
+.app__casestudies-content h4 {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__casestudies-content h4 {
+    margin-top: 3rem;
+  }
+}
+
+.app__casestudies-content .app__casestudies-tag {
+  position: absolute;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+  top: -25px;
+}
+
+.category-text {
+  font-size: 1rem;
+  font-weight: 1200px;
+  color: #2b4296;
+  text-align: left;
+}
+
+@media screen and (min-width: 2000px) {
+  .category-text {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .category-text {
+    font-size: 0.9rem;
+  }
+}

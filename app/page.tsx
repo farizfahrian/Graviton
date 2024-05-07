@@ -4,7 +4,6 @@ import { useState, useRef } from "react";
 import Navbar from "@/components/navbar/navbar";
 
 import { Spotlight } from "@/components/ui/spotlight";
-import Head from "next/head";
 import Testimonial from "@/components/pageComponents/testimonial";
 import Problems from "@/components/pageComponents/problems";
 import Services from "@/components/pageComponents/services";
@@ -13,7 +12,6 @@ import Pricing from "@/components/pageComponents/pricing";
 import Workflow from "@/components/pageComponents/workflow";
 import FAQS from "@/components/pageComponents/faq";
 import Contact from "@/components/pageComponents/contact";
-import { InfiniteMovingCardsDemo } from "@/components/snippets/infinite-moving-card-snippet";
 
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -42,20 +40,6 @@ export default function Home() {
 
   return (
     <section className="w-full md:items-center md:justify-center antialiased bg-slate-100 bg-grid-white/[0.02] relative overflow-hidden">
-      <Head>
-        <title>Graviton - Digital Agency</title>
-        <meta property="og:title" content="Graviton - Digital Agency" />
-        <meta name="description" content="Grow your business online. We offer web and mobile app development, UI/UX design, SEO & digital marketing to create high-performing websites & apps that convert. " key="desc" />
-        <meta
-          property="og:description"
-          content="Grow your business online. We offer web and mobile app development, UI/UX design, SEO & digital marketing to create high-performing websites & apps that convert. "
-        />
-        <meta
-          property="og:image"
-          content="img/graviton-og.jpg"
-        />
-      </Head>
-
       <Navbar
         scrollToHero={scrollToHero}
         scrollToPricing={scrollToPricing}

@@ -45,7 +45,7 @@ const ServiceTabs = () => {
             <div className="basis-1/3 w-full h-auto md:mt-0">
               <Image
                 className="w-auto h-full"
-                src="/img/service.jpg"
+                src="/img/web-service.jpg"
                 width={1500}
                 height={1500}
                 alt="image"
@@ -79,7 +79,7 @@ const ServiceTabs = () => {
                 className="h-full w-auto"
                 width={1500}
                 height={1500}
-                src="/img/service.jpg"
+                src="/img/marketing-service.jpg"
                 alt="image"
                 style={{ objectFit: "cover" }}
               />
@@ -107,7 +107,7 @@ const ServiceTabs = () => {
             <div className="basis-1/3 w-full h-auto md:mt-0">
               <Image
                 className="w-auto h-full"
-                src="/img/service.jpg"
+                src="/img/mobile-service.jpg"
                 width={1500}
                 height={1500}
                 alt="image"
@@ -139,7 +139,7 @@ const ServiceTabs = () => {
             <div className="basis-1/3 w-full h-auto md:mt-0">
               <Image
                 className="w-auto h-full"
-                src="/img/service.jpg"
+                src="/img/seo-service.jpg"
                 width={1500}
                 height={1500}
                 alt="image"
@@ -169,7 +169,7 @@ const ServiceTabs = () => {
             <div className="basis-1/3 w-full h-auto md:mt-0">
               <Image
                 className="w-auto h-full"
-                src="/img/service.jpg"
+                src="/img/marketing-service.jpg"
                 width={1500}
                 height={1500}
                 alt="image"
